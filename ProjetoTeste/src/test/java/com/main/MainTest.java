@@ -2,10 +2,12 @@ package com.main;
 
 import org.junit.Test;
 
-public class MainTest {
+import junit.framework.TestCase;
+
+public class MainTest extends TestCase{
 
 	@Test
-	public void meuPrimneiroTeste() {
-		
+	public void testPrimeiroTeste() {
+		assertTrue(true);
 	}
 }

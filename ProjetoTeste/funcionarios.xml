@@ -1,0 +1,14 @@
+<map>
+  <entry>
+    <long>111111111</long>
+    <model.entidades.Funcionario>
+      <nome>Admin</nome>
+      <email>admin@admin.com</email>
+      <senha>admin</senha>
+      <cpf>11111111111</cpf>
+      <matricula>111111111</matricula>
+      <isGerente>true</isGerente>
+      <registrosRealizados class="linked-hash-set"/>
+    </model.entidades.Funcionario>
+  </entry>
+</map>

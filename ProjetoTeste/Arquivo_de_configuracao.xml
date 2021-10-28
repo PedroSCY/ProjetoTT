@@ -1,0 +1,10 @@
+<util.CentralDoSistema>
+  <valorBase>5.0</valorBase>
+  <valorPorHoraExtra>2.0</valorPorHoraExtra>
+  <CNPJ>21365785000171</CNPJ>
+  <agenciaBancaria>NovoPark</agenciaBancaria>
+  <numeroAgencia>10</numeroAgencia>
+  <numeroContaEstacionamento>20</numeroContaEstacionamento>
+  <variacao>2</variacao>
+  <quantidadeVagasDisponiveis>50</quantidadeVagasDisponiveis>
+</util.CentralDoSistema>

@@ -1,16 +1,12 @@
 package persistencia;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Date;
+
 
 import model.entidades.ClienteMensalista;
 import model.entidades.Funcionario;
-import model.entidades.Pessoa;
+
 import model.entidades.RegistroPagamento;
-import util.CentralDoSistema;
+
 
 public class Testes {
 	

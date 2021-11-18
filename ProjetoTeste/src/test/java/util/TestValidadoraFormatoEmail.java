@@ -19,7 +19,7 @@ public class TestValidadoraFormatoEmail {
 	}
 	
 	@Test
-	public void testVelidarEmailVazioInvalido() {
+	public void testValidarEmailVazioInvalido() {
 		String teste = "";
 		
 		assertFalse(ValidadoraFormatoEmail.validarEmail(teste));

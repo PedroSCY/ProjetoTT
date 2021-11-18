@@ -1,10 +1,13 @@
 package util;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Test;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+
 
 public class TestValidadoraFormatoEmail {
 
@@ -13,6 +16,13 @@ public class TestValidadoraFormatoEmail {
 		String teste = "admin@admin.com";
 		
 		assertTrue(ValidadoraFormatoEmail.validarEmail(teste));
+	}
+	
+	@Test
+	public void testVelidarEmailVazioInvalido() {
+		String teste = "";
+		
+		assertFalse(ValidadoraFormatoEmail.validarEmail(teste));
 	}
 	
 	@Test

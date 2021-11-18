@@ -11,7 +11,7 @@ import view.autenticacao.TelaPrincipalAutenticacao;
 public class App {
 	public static void main(String[] args) {
 		// Lembre-se de executar o app server no pacote ponto.model.projetos
-		new TelaPrincipalAutenticacao();
+		new TelaPrincipalAutenticacao(); 
 		
 	}
 }
